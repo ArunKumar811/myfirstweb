@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laptop Showroom</title>
+  <link rel="stylesheet" href="st.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <ul>
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#models" class="nav-link">Models</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="section">
+    <h1>Build Your Knowledge</h1>
+    <p style="text-align:center; font-size:1.2rem; color:#444;">
+      Discover powerful laptops designed to elevate your learning and productivity.
+    </p>
+  </section>
+
+  <section id="models" class="section">
+    <h2>Our Laptop Models</h2>
+    <div class="laptop-cards">
+      <div class="laptop-card" data-name="UltraPro X15" data-specs="15.6&quot; Full HD, Intel i7, 16GB RAM, 512GB SSD" data-price="$1,299">
+        <img src="https://m.media-amazon.com/images/I/71vFKBpKakL.AC_SL1500.jpg" alt="UltraPro X15" />
+        <h3>UltraPro X15</h3>
+        <p>15.6" Full HD, Intel i7, 16GB RAM, 512GB SSD</p>
+        <p class="price">$1,299</p>
+        <button class="details-btn">Show Details</button>
+      </div>
+
+      <div class="laptop-card" data-name="GamingBeast G7" data-specs="17.3&quot; 144Hz, AMD Ryzen 9, 32GB RAM, 1TB SSD, RTX 3060" data-price="$2,199">
+        <img src="https://m.media-amazon.com/images/I/81fstJkUlaL.AC_SL1500.jpg" alt="GamingBeast G7" />
+        <h3>GamingBeast G7</h3>
+        <p>17.3" 144Hz, AMD Ryzen 9, 32GB RAM, 1TB SSD, RTX 3060</p>
+        <p class="price">$2,199</p>
+        <button class="details-btn">Show Details</button>
+      </div>
+
+      <div class="laptop-card" data-name="TravelMate S13" data-specs="13.3&quot; Retina, Apple M2, 8GB RAM, 256GB SSD" data-price="$1,099">
+        <img src="https://m.media-amazon.com/images/I/81fstJkUlaL.AC_SL1500.jpg" alt="TravelMate S13" />
+        <h3>TravelMate S13</h3>
+        <p>13.3" Retina, Apple M2, 8GB RAM, 256GB SSD</p>
+        <p class="price">$1,099</p>
+        <button class="details-btn">Show Details</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <button id="backToTop" title="Back to top">&#8679;</button>
+
+  <script src="sa.js"></script>
+</body>
+</html>
